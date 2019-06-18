@@ -1,0 +1,16 @@
+.skills-wrapper > div {
+  display: flex;
+  place-content: center start;
+  padding: 5px;
+  max-width: 40%;
+}
+
+.skills-wrapper > div > span {
+  margin: 0 5px;
+  text-align: left;
+  user-select: none;
+}
+
+.skills-wrapper > div > svg {
+  flex: 0 0 auto;
+}

@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?dgxo7r');
+  src:  url('fonts/icomoon.eot?dgxo7r#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?dgxo7r') format('truetype'),
+    url('fonts/icomoon.woff?dgxo7r') format('woff'),
+    url('fonts/icomoon.svg?dgxo7r#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-javascript:before {
+  content: "\e907";
+  color: #f7df1e;
+}
+.icon-ionic:before {
+  content: "\e900";
+  color: #3880ff;
+}
+.icon-mongodb:before {
+  content: "\e901";
+  color: #47a248;
+}
+.icon-microsoftazure:before {
+  content: "\e902";
+  color: #0089d6;
+}
+.icon-amazonaws:before {
+  content: "\e903";
+}
+.icon-angular:before {
+  content: "\e904";
+  color: #dd0031;
+}
+.icon-node:before {
+  content: "\e905";
+  color: #393;
+}
+.icon-react:before {
+  content: "\e906";
+  color: #61dafb;
+}
+.icon-info:before {
+  content: "\ea0c";
+}
