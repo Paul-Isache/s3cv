@@ -8,7 +8,7 @@ import './Footer.css'
 function Footer() {
   const { user } = useContext(UserContext)
   const socialFooter = user.social.map(({ name, icon, link }, index) => (
-    <a href={link} target="blank">
+    <a href={link}>
       <Icon icon={icon} color="#c6cbd1"/>
     </a>
   ))

@@ -9,6 +9,11 @@ const CV = {
       "name": "github",
       "icon": "github",
       "link": "https://github.com/Paul-Isache"
+    },
+    {
+      "name": "Mail",
+      "icon": "mail",
+      "link": "mailto:paul@isache.com?subject=Mail from site"
     }
   ],
   "skills": [

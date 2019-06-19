@@ -1,0 +1,43 @@
+version: 2.1
+orbs:
+  aws-s3: circleci/aws-s3@1.0.0
+jobs:
+  build:
+    docker:
+      - image: circleci/node:latest
+    steps:
+      - checkout
+      - run: 
+          name: update-npm
+          command: 'sudo npm install -g npm@latest'
+      - run:
+          name: install-packages
+          command: npm install
+      - run:
+          name: build
+          command: npm run build    
+  deploy:
+    docker:
+      - image: 'circleci/python:2.7'
+    steps:
+      - checkout
+      - aws-s3/sync:
+          from: bucket
+          to: 's3://isache.com'
+          aws-access-key-id:  $AWS_ACCESS_KEY_ID
+          aws-secret-access-key: $AWS_SECRET_KEY 
+          aws-region: 'eu-central-1'
+          arguments: |
+            --acl public-read \
+            --cache-control "max-age=86400"
+          overwrite: true
+      - aws-s3/copy:
+          from: build/
+          to: 's3://isache.com'
+          arguments: '--dryrun'
+workflows:
+  version: 2.1
+  build_and_test:
+    jobs:
+      - build
+      - deploy
