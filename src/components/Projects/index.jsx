@@ -35,7 +35,6 @@ function Project({ title, company, description, date }, index) {
       </p>
     </div>
   )
-
 }
 
 export default Projects
