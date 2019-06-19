@@ -3,7 +3,7 @@
   flex-direction: row;
   place-content: stretch space-between;
   width: 100vw;
-  max-width: 960px;
+  max-width: 980px;
   padding: 20px 40px;
   box-sizing: border-box;
 }

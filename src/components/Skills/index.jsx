@@ -14,7 +14,7 @@ function Skills() {
     skills = user.skills.map(({ name, icon, more }, index) => (
       <div key={`skills-${index}`}>
         <Icon icon={icon} />
-        <span  > {name}</span>
+        <span><code>{name}</code></span>
         {MoreSkills(more, index)}
 
       </div>
@@ -23,7 +23,7 @@ function Skills() {
 
   return (
     <div>
-      <h4>Skills</h4>
+      <h4><code>Skills</code></h4>
       <div className="skills-wrapper">{skills}</div>
     </div>
   )
@@ -36,7 +36,7 @@ function MoreSkills(more, index) {
     tooltip = (
       <div>
         <span data-tip data-for={`skills-more-${index}`} data-event='click focus'><Icon icon='info' /></span>
-        <ReactTooltip place="top" effect="solid" globalEventOff='click' id={`skills-more-${index}`}>
+        <ReactTooltip place="bottom" effect="solid" globalEventOff='click' id={`skills-more-${index}`}>
           {more.map((item, i) => <p key={`skill-map-${index}-${i}`}>{item}</p>)}
         </ReactTooltip>
       </div >

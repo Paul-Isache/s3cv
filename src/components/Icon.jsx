@@ -3,12 +3,12 @@ import IcomoonReact from 'icomoon-react'
 
 import iconSet from '../assets/icomoon/selection.json'
 
-function Icon({ icon }) {
+function Icon({ icon, color }) {
   const size = '18';
 
   return (
     <IcomoonReact
-      color=''
+      color={color || ''}
       iconSet={iconSet}
       icon={icon}
       size={size}

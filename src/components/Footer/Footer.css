@@ -1,0 +1,25 @@
+.footer-wrapper {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  line-height: 21px;
+  padding: 15px 0;
+  place-content: center center;
+  align-items: center;
+  border-top: 1px solid;
+  border-color: var(--border-color);
+  width: 100vw;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.footer-wrapper .social-wrapper {
+  height: 21px;
+}
+
+.footer-wrapper > p ,
+.footer-wrapper .social-wrapper > a {
+  margin-right: 10px;
+}
