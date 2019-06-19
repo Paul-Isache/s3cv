@@ -1,6 +1,5 @@
 .footer-wrapper {
   display: flex;
-  position: fixed;
   bottom: 0;
   right: 0;
   left: 0;
@@ -13,6 +12,8 @@
   width: 100vw;
   max-width: 980px;
   margin: 0 auto;
+  font-size: 0.8em;
+  height: 45px;
 }
 
 .footer-wrapper .social-wrapper {

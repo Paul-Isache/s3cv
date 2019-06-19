@@ -4,14 +4,13 @@ import Icon from '../Icon';
 
 import './Footer.css'
 
-
 function Footer() {
   const { user } = useContext(UserContext)
   let socialFooter
 
   if (user && user.social) {
     socialFooter = user.social.map(({ name, icon, link }, index) => (
-      <a href={link} key={`social-${index}`}>
+      <a href={link} key={`social-${index}`} title={name}>
         <Icon icon={icon} color="#c6cbd1" />
       </a>
     ))
@@ -25,7 +24,6 @@ function Footer() {
       </div>
     </footer>
   )
-
 }
 
 export default Footer

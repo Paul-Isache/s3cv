@@ -1,8 +1,17 @@
+.skills {
+  max-width: 40%;
+  margin-right: 4em;
+  text-align: left;
+}
+
+.skills-info {
+  cursor: pointer;
+}
+
 .skills-wrapper > div {
   display: flex;
   place-content: center start;
   padding: 5px;
-  max-width: 40%;
   align-items: center;
 }
 
@@ -10,6 +19,7 @@
   margin: 0 5px;
   text-align: left;
   user-select: none;
+  font-size: 0.9em;
 }
 
 .skills-wrapper > div > svg {

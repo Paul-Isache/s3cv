@@ -22,7 +22,7 @@ function Skills() {
   }
 
   return (
-    <div>
+    <div className="skills">
       <h4><code>Skills</code></h4>
       <div className="skills-wrapper">{skills}</div>
     </div>
@@ -35,8 +35,10 @@ function MoreSkills(more, index) {
   if (more && more.length) {
     tooltip = (
       <div>
-        <span data-tip data-for={`skills-more-${index}`} data-event='click focus'><Icon icon='info' /></span>
-        <ReactTooltip place="bottom" effect="solid" globalEventOff='click' id={`skills-more-${index}`}>
+        <span className="skills-info" data-tip data-for={`skills-more-${index}`}>
+          <Icon icon='info' />
+        </span>
+        <ReactTooltip place="bottom" effect="solid" id={`skills-more-${index}`}>
           {more.map((item, i) => <p key={`skill-map-${index}-${i}`}>{item}</p>)}
         </ReactTooltip>
       </div >
