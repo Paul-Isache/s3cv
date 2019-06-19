@@ -24,7 +24,9 @@ function Projects() {
 function Project({ title, company, description, date }, index) {
   return (
     <div className="project-wrapper" key={`project-${index}`}>
-      <h5><span role='img'>🚀</span><code>{title}</code> at <strong>{company}</strong></h5>
+      <h5>
+        <span role="img" aria-label={company}>🚀</span><code>{title}</code> at <strong>{company}</strong>
+      </h5>
       <span>
         {!date.end ? 'now' : moment.unix(date.end).format('MMM YYYY')} - {moment.unix(date.start).format('MMM YYYY')}
       </span>
