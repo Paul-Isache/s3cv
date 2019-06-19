@@ -25,7 +25,7 @@ jobs:
           from: bucket
           to: 's3://isache.com'
           aws-access-key-id: AWS_ACCESS_KEY_ID
-          aws-secret-access-key: AWS_SECRET_KEY
+          aws-secret-access-key: AWS_SECRET_ACCESS_KEY
           aws-region: AWS_REGION
           arguments: |
             --acl public-read \
