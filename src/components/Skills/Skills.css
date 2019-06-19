@@ -3,6 +3,7 @@
   place-content: center start;
   padding: 5px;
   max-width: 40%;
+  align-items: center;
 }
 
 .skills-wrapper > div > span {
