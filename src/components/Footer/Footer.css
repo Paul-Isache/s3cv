@@ -16,10 +16,11 @@
 }
 
 .footer-wrapper .social-wrapper {
-  height: 21px;
+  display: flex;
 }
 
 .footer-wrapper > p ,
 .footer-wrapper .social-wrapper > a {
   margin-right: 10px;
+  display: flex;
 }
