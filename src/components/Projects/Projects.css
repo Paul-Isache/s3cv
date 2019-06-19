@@ -1,0 +1,15 @@
+.projects { 
+  text-align: left;
+  flex: 2;
+  overflow: scroll;
+  max-height: 100%;
+  overflow-y: auto;
+}
+
+.project-wrapper h5 {
+  margin-bottom: 0;
+}
+
+.project-wrapper > span {
+  font-size: 0.8em;
+}
