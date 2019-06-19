@@ -36,7 +36,7 @@ jobs:
           overwrite: true
       - aws-s3/copy:
           from: ./build/*
-          to: 's3://isache.com'
+          to: 's3://isache.com/'
           arguments: '--dryrun'
 workflows:
   version: 2.1
