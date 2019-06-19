@@ -18,7 +18,7 @@ jobs:
           command: npm run build    
       - store_artifacts:
           path: build/.
-          destination: build
+          destination: /tmp/build
   deploy:
     docker:
       - image: 'circleci/python:2.7'
@@ -35,7 +35,7 @@ jobs:
             --cache-control "max-age=86400"
           overwrite: true
       - aws-s3/copy:
-          from: build/
+          from: /tmp/build/
           to: 's3://isache.com'
           arguments: '--dryrun'
 workflows:
