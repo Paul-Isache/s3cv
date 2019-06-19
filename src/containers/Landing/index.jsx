@@ -9,13 +9,9 @@ import './Landing.css'
 function Landing(props) {
   const { setUser } = useContext(UserContext)
 
-  const getUser = async () => {
-    setUser(CV)
-  }
-
   useEffect(() => {
-    getUser()
-  }, [])
+    setUser(CV)
+  }, [setUser])
 
   return (
     <div>
