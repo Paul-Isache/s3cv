@@ -35,7 +35,7 @@ jobs:
             --cache-control "max-age=86400"
           overwrite: true
       - aws-s3/copy:
-          from: .
+          from: ./build/*
           to: 's3://isache.com'
           arguments: '--dryrun'
 workflows:
