@@ -20,8 +20,6 @@ jobs:
           path: /build
           destination: build
   deploy:
-    requires:
-      - build
     docker:
       - image: 'circleci/python:2.7'
     steps:
@@ -46,3 +44,5 @@ workflows:
     jobs:
       - build
       - deploy
+        requires:
+          - build
