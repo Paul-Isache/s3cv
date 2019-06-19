@@ -7,11 +7,15 @@ import './Footer.css'
 
 function Footer() {
   const { user } = useContext(UserContext)
-  const socialFooter = user.social.map(({ name, icon, link }, index) => (
-    <a href={link} key={`social-${index}`}>
-      <Icon icon={icon} color="#c6cbd1"/>
-    </a>
-  ))
+  let socialFooter
+
+  if (user && user.social) {
+    socialFooter = user.social.map(({ name, icon, link }, index) => (
+      <a href={link} key={`social-${index}`}>
+        <Icon icon={icon} color="#c6cbd1" />
+      </a>
+    ))
+  }
 
   return (
     <footer className="footer-wrapper">
