@@ -34,9 +34,12 @@ jobs:
             --acl public-read \
             --cache-control "max-age=86400"
           overwrite: true
+      - run:
+          name: 'Go to build folder'
+          command: cd ./build  
       - aws-s3/copy:
-          from: ./build/*
-          to: 's3://isache.com/'
+          from: .
+          to: 's3://isache.com'
           arguments: '--dryrun'
 workflows:
   version: 2.1
