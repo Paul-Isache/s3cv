@@ -24,8 +24,8 @@ jobs:
       - aws-s3/sync:
           from: bucket
           to: 's3://isache.com'
-          aws-access-key-id: ${AWS_ACCESS_KEY_ID}
-          aws-secret-access-key: ${AWS_SECRET_KEY} 
+          aws-access-key-id: AWS_ACCESS_KEY_ID
+          aws-secret-access-key: AWS_SECRET_KEY
           aws-region: 'eu-central-1'
           arguments: |
             --acl public-read \
