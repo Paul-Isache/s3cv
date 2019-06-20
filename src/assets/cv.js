@@ -124,6 +124,16 @@ const CV = {
         "start": 1379246400,
         "end": 1439658426
       }
+    },
+    {
+      "title": "Other coding things 👨🏻‍💻",
+      "company": "",
+      "description": `The source code for this site, called S3CV, can be found on <a href='https://github.com/Paul-Isache/s3cv'>github</a>.<br/>
+                      A startup kit with a Typescript approach to Node server (<a href='https://github.com/Paul-Isache/REST-in-peace'>REST-in-peace</a>)`,
+      "date": {
+        "start": 1379246400,
+        "end": null
+      }
     }
   ]
 }
