@@ -68,7 +68,7 @@ const CV = {
       "title": "Senior developer",
       "company": "E.ON 👨🏻‍🔬",
       "description": `Worked on a company projects using React and Adobe Experience Manager and also helped colleagues with Microsoft PowerBi (preparing 
-                      the SQL data and writing stored procedures). Currently working on an IoT project using ReactJS, Angular, TS.ED and use Azure Services.<br/>
+                      the SQL data and writing stored procedures). Currently working on an IoT project using React, Angular, TS.ED and use Azure Services.<br/>
                       Contributed actively in the E.ON internship program and started an open source React calendar.`,
       "date": {
         "start": 1524139200,
@@ -78,7 +78,7 @@ const CV = {
     {
       "title": "Senior Software Engineer",
       "company": "3Pillar Global",
-      "description": `Worked on a big startup, that used ReactJS on the front end.
+      "description": `Worked on a big startup, that used React on the front end.
                  We had several projects to maintain, that behaved like microservices and communicated between them.
                  This microservice backends were developed in Ruby.`,
       "date": {
