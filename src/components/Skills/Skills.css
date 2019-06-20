@@ -25,3 +25,15 @@
 .skills-wrapper > div > svg {
   flex: 0 0 auto;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .skills {
+    max-width: initial;
+    margin-right: 0;
+  }
+
+  .skills-wrapper {
+    display: flex;  
+    flex-wrap: wrap;
+  }
+}

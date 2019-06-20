@@ -14,3 +14,13 @@
   padding: 20px 40px;
   box-sizing: border-box;
 }
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .content-wrapper {
+    flex-direction: column;
+    place-content: start stretch;
+    overflow: scroll;
+    padding: 10px 20px;
+  }
+}

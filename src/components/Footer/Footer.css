@@ -25,3 +25,9 @@
   margin-right: 10px;
   display: flex;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .footer-wrapper {
+    box-sizing: border-box;
+  }
+}
