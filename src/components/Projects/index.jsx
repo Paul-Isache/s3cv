@@ -25,7 +25,7 @@ function Project({ title, company, description, date }, index) {
   return (
     <div className="project-wrapper" key={`project-${index}`}>
       <h5>
-        <span role="img" aria-label={company}>🚀</span>
+        <span role="img" aria-label="rocket emoji" alt="rocket emoji">🚀</span>
         <code>{title}</code> {company ? 'at' : ''} {company}
       </h5>
       <span>

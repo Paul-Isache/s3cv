@@ -30,4 +30,15 @@
   .footer-wrapper {
     box-sizing: border-box;
   }
+  .footer-wrapper .social-wrapper > a {
+    height: 48px;
+    width: 48px;
+    align-items: center;
+    place-content: center;
+  }
+
+  .footer-wrapper .social-wrapper > a svg{
+    height: 24px!important;
+    width: 24px!important;
+  }
 }
