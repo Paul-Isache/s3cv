@@ -129,7 +129,8 @@ const CV = {
       "title": "Other coding things 👨🏻‍💻",
       "company": "",
       "description": `The source code for this site, called S3CV, can be found on <a href='https://github.com/Paul-Isache/s3cv'>github</a>.<br/>
-                      A startup kit for Node, including authentication and authorization, with a Typescript approach (<a href='https://github.com/Paul-Isache/REST-in-peace'>REST-in-peace</a>)`,
+                      A startup kit for Node, including authentication and authorization, with a Typescript approach (<a href='https://github.com/Paul-Isache/REST-in-peace'>REST-in-peace</a>).<br/>
+                      Created a React Chronos calendar (<a href='https://www.npmjs.com/package/chronos-calendar'>chronos-calendar</a>)`,
       "date": {
         "start": 1379246400,
         "end": null
