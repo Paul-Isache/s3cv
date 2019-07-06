@@ -15,7 +15,7 @@ jobs:
           command: npm run build  
       - run:
           name: place GA id
-          command: sed -i -e 's/<trackid>/${TRACKID}/g' public/index.html && rm -rf public/index.html-e
+          command: sed -i -e 's/<trackid>/$TRACKID/g' public/index.html && rm -rf public/index.html-e
       - persist_to_workspace:
           root: ./
           paths: 
