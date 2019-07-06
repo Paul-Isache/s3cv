@@ -17,7 +17,7 @@ jobs:
           name: place GA id
           command: |
             echo $TRACKID
-            sed -i -e 's/<trackid>/$TRACKID/g' public/index.html && rm -rf public/index.html-e
+            sed -i -e 's/<trackid>/$TRACKID/g' build/index.html && rm -rf build/index.html-e
       - persist_to_workspace:
           root: ./
           paths: 
