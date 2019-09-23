@@ -6,3 +6,5 @@
 
 
 🚀 Simple React application to show CV 
+
+Minimalistic approach for a CV written using ReactHooks 

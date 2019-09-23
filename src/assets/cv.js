@@ -55,7 +55,7 @@ const CV = {
     {
       "name": "Azure",
       "icon": "microsoftazure",
-      "more": ["Functions", "CosmosDB", "ServiceBus", "StorageQueue", "IoTHub"]
+      "more": ["Functions", "CosmosDB", "ServiceBus", "StorageQueue", "IoTHub", "DevOps"]
     },
     {
       "name": "git",
@@ -65,14 +65,24 @@ const CV = {
   ],
   "projects": [
     {
+      "title": "Consultant ",
+      "company": "E.ON Digital Technology 👨🏻‍🔬",
+      "description": `Working with Javascript with the main focus on the backend part, NodeJS.<br/>
+                      Extracting common pieces of code into npm packages, hosted in a private registry in Azure DevOps, to be used across all of our projects.`,
+      "date": {
+        "start": 1568397600,
+        "end": null
+      }
+    },
+    {
       "title": "Senior developer",
-      "company": "E.ON 👨🏻‍🔬",
+      "company": "E.ON",
       "description": `Worked on a company projects using React and Adobe Experience Manager and also helped colleagues with Microsoft PowerBi (preparing 
                       the SQL data and writing stored procedures). Currently working on an IoT project using React, Angular, TS.ED and use Azure Services.<br/>
                       Contributed actively in the E.ON internship program and started an open source React calendar.`,
       "date": {
         "start": 1524139200,
-        "end": null
+        "end": 1568397600
       }
     },
     {
@@ -117,7 +127,7 @@ const CV = {
       "title": "Web developer",
       "company": "Ultragroup",
       "description": `Being in a small company I got the chance to try out different technologies, from PHP to jQuery to a small presentation site in Wordpress.<br/>
-                      1. Worked on a wine app using Ionic, called PivotNoir, that should help users pick a wine, like a virtual sommelier.
+                      1. Worked on a wine app using Ionic, called <a href='https://apps.apple.com/us/app/id967234048'>PivotNoir</a>, that should help users pick a wine, like a virtual sommelier.
                       Also, we developed a portal for entering the wine in the MySQL database.<br/>
                       2. Developed a jQuery 360 degree presentation carousel for Nokia/Microsoft mobile`,
       "date": {
@@ -128,7 +138,7 @@ const CV = {
     {
       "title": "Other coding things 👨🏻‍💻",
       "company": "",
-      "description": `The source code for this site, called S3CV, can be found on <a href='https://github.com/Paul-Isache/s3cv'>github</a>.<br/>
+      "description": `The source code for this site, called S3CV (<a href='https://github.com/Paul-Isache/s3cv'>github</a>) and is minimalistic approch for a CV written using ReactHooks.<br/>
                       A startup kit for Node, including authentication and authorization, with a Typescript approach (<a href='https://github.com/Paul-Isache/REST-in-peace'>REST-in-peace</a>).<br/>
                       Created a React Chronos calendar (<a href='https://www.npmjs.com/package/chronos-calendar'>chronos-calendar</a>)`,
       "date": {
