@@ -13,8 +13,7 @@
   max-width: 980px;
   padding: 20px 40px;
   box-sizing: border-box;
-  overflow-x: hidden;
-  overflow-y: scroll;
+  overflow: hidden;
 }
 
 
