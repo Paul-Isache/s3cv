@@ -65,10 +65,10 @@ const CV = {
   ],
   "projects": [
     {
-      "title": "Consultant ",
+      "title": "Consultant",
       "company": "E.ON Digital Technology 👨🏻‍🔬",
       "description": `Working with Javascript with the main focus on the backend part, NodeJS.<br/>
-                      Extracting common pieces of code into npm packages, hosted in a private registry in Azure DevOps, to be used across all of our projects.`,
+                      I work on new features and also extract common pieces of code into NPM packages, hosted in a private registry in Azure DevOps, to be used across all of our projects.`,
       "date": {
         "start": 1568397600,
         "end": null

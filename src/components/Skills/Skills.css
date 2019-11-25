@@ -36,4 +36,8 @@
     display: flex;  
     flex-wrap: wrap;
   }
+
+  .skills-info {
+    visibility: hidden;
+  }
 }
