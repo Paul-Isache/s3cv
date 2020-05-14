@@ -90,7 +90,7 @@ const CV = {
       "company": "3Pillar Global",
       "description": `Worked on a big startup, that used React on the front end.
                  We had several projects to maintain, that behaved like microservices and communicated between them.
-                 This microservice backends were developed in Ruby.`,
+                 These microservice backends were developed in Ruby.`,
       "date": {
         "start": 1502366400,
         "end": 1524139200
@@ -100,8 +100,8 @@ const CV = {
       "title": "Front end developer",
       "company": "TiVo",
       "description": `Maintained and developed new features of the TiVo portal and helped to deploy new partners in AWS. 
-                    Built a small component for used by the TiVo mobile team. The application was built using Angular 1 and SpringBoot. 
-                    It was integrated with TiVo internal service discovery. Used the AWS services (ECS, CloudFormation, S3, EC2) and Docker.`,
+                    Built a small component used by the TiVo mobile team. The application was built using Angular 1 and SpringBoot. 
+                    It was integrated with TiVo's internal service discovery. Used the AWS services (ECS, CloudFormation, S3, EC2) and Docker.`,
       "date": {
         "start": 1489147200,
         "end": 1502366400
@@ -115,9 +115,9 @@ const CV = {
                       on the back end Express and data was kept in a MongoDB instance. 
                       It was deployed on AWS. To transport messages we used RabbitMQ.<br/>
                       2. Landscaper application to design your garden. Was built using AngularMaterial and PaperJS to draw on the canvas.
-                      On the backend use AWS Lambda, API Gateway, S3 and DynamoDB<br/>
+                      On the backend, we used: AWS Lambda, API Gateway, S3 and DynamoDB.<br/>
                       3. Worked for a short period on a project that was using React Native, helped develop functionalities that involved phone
-                       native API's`,
+                       native API's.`,
       "date": {
         "start": 1439658426,
         "end": 1489147200
@@ -129,7 +129,7 @@ const CV = {
       "description": `Being in a small company I got the chance to try out different technologies, from PHP to jQuery to a small presentation site in Wordpress.<br/>
                       1. Worked on a wine app using Ionic, called <a href='https://apps.apple.com/us/app/id967234048'>PivotNoir</a>, that should help users pick a wine, like a virtual sommelier.
                       Also, we developed a portal for entering the wine in the MySQL database.<br/>
-                      2. Developed a jQuery 360 degree presentation carousel for Nokia/Microsoft mobile`,
+                      2. Developed a jQuery 360 degrees presentation carousel for Nokia/Microsoft mobile`,
       "date": {
         "start": 1379246400,
         "end": 1439658426
