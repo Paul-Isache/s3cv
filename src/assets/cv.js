@@ -65,16 +65,6 @@ const CV = {
   ],
   "projects": [
     {
-      "title": "Analyst programmer",
-      "company": "Alexandru Ioan Cuza University 👨🏻‍🔬",
-      "description": `Working on the <a href="https://privatesky.xyz">PrivateSky</a> research project.<br/>
-                      The project is focusing on blockchain, self-sovereign applications, and creating a safe environment to run an application without worrying about your sensitive data`,
-      "date": {
-        "start": 1596311683,
-        "end": null
-      }
-    },
-    {
       "title": "Consultant",
       "company": "E.ON Digital Technology 👨🏻‍💻",
       "description": `Working with Javascript with the main focus on the backend part, NodeJS.<br/>
@@ -82,6 +72,16 @@ const CV = {
       "date": {
         "start": 1568397600,
         "end": null
+      }
+    },
+    {
+      "title": "Analyst programmer",
+      "company": "Alexandru Ioan Cuza University 👨🏻‍🔬",
+      "description": `Working on the <a href="https://privatesky.xyz">PrivateSky</a> research project.<br/>
+                      The project is focusing on blockchain, self-sovereign applications, and creating a safe environment to run an application without worrying about your sensitive data`,
+      "date": {
+        "start": 1596311683,
+        "end": 1604255710
       }
     },
     {
