@@ -9,6 +9,10 @@
   margin-bottom: 0;
 }
 
+.project-wrapper h5 > span {
+  margin-right: .5rem;
+}
+
 .project-wrapper > span {
   font-size: 0.8em;
 }
