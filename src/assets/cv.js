@@ -20,7 +20,7 @@ const CV = {
     {
       "name": "NodeJS",
       "icon": "node",
-      "more": ["ExpressJS", "TS.ED"]
+      "more": ["Fastify", "ExpressJS", "TS.ED", ]
     },
     {
       "name": "Typescript",
@@ -65,8 +65,18 @@ const CV = {
   ],
   "projects": [
     {
+      "title": "Software Consultant",
+      "company": "NearForm 👨🏻‍💻",
+      "description": `Working with Javascript with the main focus on the backend part, NodeJS.<br/>
+                      Contributing to open source projects and not only. Working mainly using <a href="https://www.fastify.io">Fastify</a>`,
+      "date": {
+        "start": 1612166400,
+        "end": null
+      }
+    },
+    {
       "title": "Consultant",
-      "company": "E.ON Digital Technology 👨🏻‍💻",
+      "company": "E.ON Digital Technology",
       "description": `Working with Javascript with the main focus on the backend part, NodeJS.<br/>
                       I work on new features and also extract common pieces of code into NPM packages, hosted in a private registry in Azure DevOps, to be used across all of our projects.`,
       "date": {
