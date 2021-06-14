@@ -77,11 +77,12 @@ const CV = {
     {
       "title": "Consultant",
       "company": "E.ON Digital Technology",
-      "description": `Working with Javascript with the main focus on the backend part, NodeJS.<br/>
-                      I work on new features and also extract common pieces of code into NPM packages, hosted in a private registry in Azure DevOps, to be used across all of our projects.`,
+      "description": `Working with Javascript with the main focus on the backend part, on E.ON Home project, using NodeJS and <a href="https://tsed.io/">Ts.ED framework</a>.<br/>
+                      I work on new features and also extract common pieces of code into NPM packages, hosted in a private registry in Azure DevOps, to be used across all of our projects.<br/>
+                      Experience developing features using Azure Cloud Servives, like: Storage (queues, blobs), ServiceBus, EventHub, Functions, CosmosDB.`,
       "date": {
         "start": 1568397600,
-        "end": null
+        "end": 1625126400
       }
     },
     {
