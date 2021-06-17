@@ -7,4 +7,4 @@
 
 🚀 Simple React application to show CV 
 
-Minimalistic approach for a CV written using ReactHooks 
+Minimalistic approach for a CV written using ReactHooks and deployed using CircleCI to S3
