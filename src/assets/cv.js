@@ -55,7 +55,7 @@ const CV = {
     {
       "name": "Azure",
       "icon": "microsoftazure",
-      "more": ["Functions", "CosmosDB", "ServiceBus", "StorageQueue", "IoTHub", "DevOps"]
+      "more": ["Functions", "CosmosDB", "ServiceBus", "StorageQueue", "IoTHub", "DevOps", "EventHub"]
     },
     {
       "name": "git",
