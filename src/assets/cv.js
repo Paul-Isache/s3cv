@@ -55,7 +55,7 @@ const CV = {
     {
       "name": "Azure",
       "icon": "microsoftazure",
-      "more": ["Functions", "CosmosDB", "ServiceBus", "StorageQueue", "IoTHub", "DevOps", "EventHub"]
+      "more": ["Functions", "CosmosDB", "ServiceBus", "Storage", "IoTHub", "DevOps", "EventHub", "EventGrid"]
     },
     {
       "name": "git",
@@ -68,7 +68,8 @@ const CV = {
       "title": "Software Consultant",
       "company": "NearForm 👨🏻‍💻",
       "description": `Working with Javascript with the main focus on the backend part, NodeJS.<br/>
-                      Contributing to open source projects and not only. Working mainly using <a href="https://www.fastify.io">Fastify</a>`,
+                      Contributing to open source projects and not only. Working mainly using <a href="https://www.fastify.io">Fastify</a>. <br/>
+                      Also helping writing articles like <a href='https://www.nearform.com/blog/using-fastify-on-google-cloud-run/'>using Fastify on Google Cloud run</a>.`,
       "date": {
         "start": 1612166400,
         "end": null
@@ -157,9 +158,10 @@ const CV = {
       }
     },
     {
-      "title": "Other coding things 👨🏻‍💻",
+      "title": "Other coding projects 👨🏻‍💻",
       "company": "",
       "description": `The source code for this site, called S3CV (<a href='https://github.com/Paul-Isache/s3cv'>github</a>) and is minimalistic approch for a CV written using ReactHooks.<br/>
+                      Fastify server side rendering using <a href='https://vitejs.dev'>Vite</a> for React, called <a href='https://github.com/terixjs/fastify-vite'>fastify-vite</a>.<br/>
                       A startup kit for Node, including authentication and authorization, with a Typescript approach (<a href='https://github.com/Paul-Isache/REST-in-peace'>REST-in-peace</a>).<br/>
                       Created a React Chronos calendar (<a href='https://www.npmjs.com/package/chronos-calendar'>chronos-calendar</a>)`,
       "date": {
