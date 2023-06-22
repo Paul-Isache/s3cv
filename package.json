@@ -1,6 +1,6 @@
 {
   "name": "paul-cv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "dependencies": {
     "icomoon-react": "^1.0.0",
