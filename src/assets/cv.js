@@ -70,6 +70,7 @@ const CV = {
       "description": `Working with Javascript with the main focus on the backend part, NodeJS.<br/>
                       I am working with Azure Services as part of infrastructure with services such as: ServiceBus, StorageQueue, Functions, AppServices, CosmosDB. <br/>
                       Part of current work I did the infrastructure part for setting app logs and monitorings, using Azure ApplicationInsights and Azure Monitor. <br/>
+                      Developed an authorization system and performed E2E (using Cypress) and load tests (JMeter) for the deployed services. <br/>
                       Contributing to open source projects and not only. Working mainly using <a href="https://www.fastify.io">Fastify</a>. <br/>
                       Also helping writing articles like <a href='https://www.nearform.com/blog/using-fastify-on-google-cloud-run/'>using Fastify on Google Cloud run</a>.`,
       "date": {
