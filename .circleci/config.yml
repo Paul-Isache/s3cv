@@ -1,10 +1,10 @@
 version: 2.1
 orbs:
-  aws-s3: circleci/aws-s3@1.0.11
+  aws-s3: circleci/aws-s3@3.1.1
 jobs:
   build:
     docker:
-      - image: circleci/node:latest
+      - image: cimg/node:16.20.1
     steps:
       - checkout
       - run:
