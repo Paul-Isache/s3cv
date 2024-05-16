@@ -18,7 +18,7 @@ function Footer() {
 
   return (
     <footer className="footer-wrapper">
-      <p> <code>	&copy; 2019 Copyright: isache.com </code></p>
+      <p> <code>	&copy; 2024 Copyright: isache.com </code></p>
       <div className="social-wrapper">
         {socialFooter}
       </div>

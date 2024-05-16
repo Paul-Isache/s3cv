@@ -11,6 +11,11 @@ const CV = {
       "link": "https://github.com/Paul-Isache"
     },
     {
+      "name": "Medium",
+      "icon": "medium",
+      "link": "https://medium.com/@paulisache"
+    },
+    {
       "name": "Mail",
       "icon": "mail",
       "link": "mailto:paul@isache.com?subject=Mail from site"
@@ -65,10 +70,10 @@ const CV = {
   ],
   "projects": [
     {
-      "title": "Software Consultant",
+      "title": "Staff Software Developer | Software Consultant",
       "company": "NearForm 👨🏻‍💻",
       "description": `Working with Javascript with the main focus on the backend part, NodeJS.<br/>
-                      I am working with Azure Services as part of infrastructure with services such as: ServiceBus, StorageQueue, Functions, AppServices, CosmosDB. <br/>
+                      I am working with Azure Services as part of infrastructure with services such as: ServiceBus, StorageQueue, Functions, AppServices, CosmosDB and others. <br/>
                       Part of current work I did the infrastructure part for setting app logs and monitorings, using Azure ApplicationInsights and Azure Monitor. <br/>
                       Developed an authorization system and performed E2E (using Cypress) and load tests (JMeter) for the deployed services. <br/>
                       Contributing to open source projects and not only. Working mainly using <a href="https://www.fastify.io">Fastify</a>. <br/>
@@ -92,7 +97,7 @@ const CV = {
     {
       "title": "Analyst programmer",
       "company": "Alexandru Ioan Cuza University",
-      "description": `Working on the <a href="https://privatesky.xyz">PrivateSky</a> research project.<br/>
+      "description": `Working on the <a href="https://privatesky.xyz">PrivateSky</a> research project or <a href="https://www.opendsu.org">OpenDSU</a>.<br/>
                       The project is focusing on blockchain, self-sovereign applications, and creating a safe environment to run an application without worrying about your sensitive data`,
       "date": {
         "start": 1596311683,
