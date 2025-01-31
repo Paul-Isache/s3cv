@@ -77,7 +77,9 @@ const CV = {
                       Part of current work I did the infrastructure part for setting app logs and monitorings, using Azure ApplicationInsights and Azure Monitor. <br/>
                       Developed an authorization system and performed E2E (using Cypress) and load tests (JMeter) for the deployed services. <br/>
                       Contributing to open source projects and not only. Working mainly using <a href="https://www.fastify.io">Fastify</a>. <br/>
-                      Also helping writing articles like <a href='https://www.nearform.com/blog/using-fastify-on-google-cloud-run/'>using Fastify on Google Cloud run</a>.`,
+                      Also helping writing articles like <a href='https://www.nearform.com/blog/using-fastify-on-google-cloud-run/'>using Fastify on Google Cloud run</a>. <br/>
+                      Since end of 2024 working with React Native and AWS (EC2, EKS, Lambda, SNS, SES) service within a project that focuses on credentials and credentials validations.
+                      `,
       "date": {
         "start": 1612166400,
         "end": null
@@ -171,7 +173,8 @@ const CV = {
       "description": `The source code for this site, called S3CV (<a href='https://github.com/Paul-Isache/s3cv'>github</a>) and is minimalistic approch for a CV written using ReactHooks.<br/>
                       Fastify server side rendering using <a href='https://vitejs.dev'>Vite</a> for React, called <a href='https://github.com/terixjs/fastify-vite'>fastify-vite</a>.<br/>
                       A startup kit for Node, including authentication and authorization, with a Typescript approach (<a href='https://github.com/Paul-Isache/REST-in-peace'>REST-in-peace</a>).<br/>
-                      Created a React Chronos calendar (<a href='https://www.npmjs.com/package/chronos-calendar'>chronos-calendar</a>)`,
+                      Created a React Chronos calendar (<a href='https://www.npmjs.com/package/chronos-calendar'>chronos-calendar</a>). <br/>
+                      Started a mobile application for that focuses on client loyalty and retargeting. Have a quick <a href='https://pick.coupons'>pick</a>. `,
       "date": {
         "start": 1379246400,
         "end": null
